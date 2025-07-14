@@ -2,9 +2,10 @@
     "uuid": "removeclock@sudo-swe.com",
     "name": "Remove Clock",
     "description": "Remove or hide clock from top panel.",
-    "shell-version": [ 
+    "shell-version": [
 	    "45",
-	    "46" 
+	    "46",
+	    "48"
     ],
     "url": "https://github.com/sudo-swe/GNOME-RemoveClock"
 }
