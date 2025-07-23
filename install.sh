@@ -1,11 +1,11 @@
 #!/bin/sh
-# Install the Remove Clock extension for GNOME Shell 48
+# Install the Remove Clock extension for GNOME Shell
 set -e
 
 UUID="removeclock@sudo-swe.com"
 DEST="$HOME/.local/share/gnome-shell/extensions/$UUID"
 
-echo "Installing Remove Clock extension for GNOME 48"
+echo "Installing Remove Clock extension"
 mkdir -p "$DEST"
 cp metadata.json extension.js "$DEST/"
 
